@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0,1,2"
+    >
+
+    <TableRow>
+
+        <TextView android:text="celda 1.1" ></TextView>
+
+        <TextView android:text="celda 1.2"></TextView>
+
+        <TextView android:text="celda 1.3"></TextView>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="celda 2.1"></TextView>
+
+        <TextView android:text="celda 2.2"></TextView>
+
+        <TextView android:text="celda 2.3"></TextView>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="celda 3.1"
+            android:layout_span="2"></TextView>
+
+        <TextView android:text="celda 3.2"></TextView>
+
+    </TableRow>
+</TableLayout>

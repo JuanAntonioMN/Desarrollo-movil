@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <com.example.paletadecolores.ColorLienzo
+        android:id="@+id/lienzoCanvas"
+        android:layout_width="428dp"
+        android:layout_height="222dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="395dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lienzoCanvas" />
+
+
+
+
+
+
+    <Button android:id="@+id/copiarrgb"
+        android:layout_width="352dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="28dp"
+        android:background="@android:color/transparent"
+        android:text="@string/colorrbg"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar" />
+
+
+    <Button android:id="@+id/copiarhex"
+        android:layout_width="374dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="44dp"
+        android:background="@android:color/transparent"
+        android:text="@string/colorhexa"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/copiarrgb" />
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

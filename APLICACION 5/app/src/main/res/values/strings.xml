@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Conversion de unidades</string>
+    <string name="Longitud">Longitud</string>
+    <string name="Masa">Masa</string>
+    <string name="Temperatura">Temperatura</string>
+    <string name="resultado">0.0</string>
+    <string name="Ocultar"> Ocultar</string>
+</resources>

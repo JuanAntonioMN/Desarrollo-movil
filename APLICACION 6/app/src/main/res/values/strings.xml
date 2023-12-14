@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Controles de Selección MAS daptadores</string>
+    <string-array name="datosArray">
+        <item>Elemento 1</item>
+        <item>Elemento 2</item>
+        <item>Elemento 3</item>
+        <item>Elemento 4</item>
+        <item>Elemento 5</item>
+    </string-array>
+</resources>

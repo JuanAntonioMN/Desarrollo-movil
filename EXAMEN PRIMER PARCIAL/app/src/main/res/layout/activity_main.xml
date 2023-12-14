@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!-- Tenemos una etiqueta de imagen con la cual presentaremos la imagen de nuestra aplicacion-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="84dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_principal" />
+    <!-- Tenemos el texview que funcionara para mostrar el nombre de nuestra aplicacion -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="216dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Este otro text view funciona para mostrar un mensaje de bienvenida -->
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="265dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="56dp"
+        android:text="BIENVENIDO"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+    <!-- Este comenta un poco sobre la aplicacion y sus actividades -->
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="365dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="24dp"
+        android:text="Ahora puede calcular tus impuestos de 2023"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+    <!-- Por ultimo inluimos un boton para que el usuario pueda continuar y cambiar de vista -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="168dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="28dp"
+        android:text="Calcular"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.124" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

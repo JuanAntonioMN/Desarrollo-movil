@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calculo ISR</string>
+    <string name="titulo">CALCULAR ISR</string>
+    <string name="sub_titulo1">Ingresa el ingreso</string>
+    <string name="opcion1">ISR diario</string>
+    <string name="opcion2">ISR semanal</string>
+    <string name="opcion3">ISR decenal</string>
+    <string name="opcion4">ISR quincenal</string>
+    <string name="opcion5">ISR mensual</string>
+    <string name="boton">Calcular</string>
+</resources>
